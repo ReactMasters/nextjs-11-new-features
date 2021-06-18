@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
+
 const Wrapper = styled.div`
   display: flex;
   padding: 100px 0;
@@ -16,17 +17,23 @@ const Wrapper = styled.div`
   }
 `;
 
-export default function Home() {
+export default function Page() {
   return (
     <Wrapper>
-      <Link href="/image">
-        <a>Image Component</a>
+      <Link href="/image/src">
+        <a>src</a>
       </Link>
-      <Link href="/script">
-        <a>Script Component</a>
+      <Link href="/image/layout">
+        <a>layout</a>
       </Link>
-      <Link href="/font">
-        <a>Font optimization</a>
+      <Link href="/image/quality">
+        <a>quality</a>
+      </Link>
+      <Link href="/image/priority">
+        <a>priority</a>
+      </Link>
+      <Link href="/image/blur">
+        <a>blur</a>
       </Link>
     </Wrapper>
   );

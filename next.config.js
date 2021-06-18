@@ -24,7 +24,7 @@ const withBundleAnalyzer = (nextConfig = {}) => {
 const nextConfig = {
   env: require("./.env.js"),
   images: {
-    domain: ["cdn.pixabay.com"],
+    domains: ["cdn.pixabay.com"],
   },
 };
 
