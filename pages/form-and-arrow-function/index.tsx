@@ -16,10 +16,14 @@ const Wrapper = styled.div`
 export default function Page() {
   return (
     <Wrapper>
-      <LinkButton href="/next-js-11">next.js 11 new feature</LinkButton>
-      <LinkButton href="/form-and-arrow-function">
-        form-and-arrow-function
+      <LinkButton href="/form-and-arrow-function/basic">기본</LinkButton>
+      <LinkButton href="/form-and-arrow-function/bad">
+        😡 진짜 나쁜 거
       </LinkButton>
+      <LinkButton href="/form-and-arrow-function/not-bad">
+        🤫 들 나쁜 거
+      </LinkButton>
+      <LinkButton href="/form-and-arrow-function/good">😊 좋은 거</LinkButton>
     </Wrapper>
   );
 }
