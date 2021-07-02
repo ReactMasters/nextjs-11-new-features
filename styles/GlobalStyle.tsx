@@ -1,7 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-
-import styles from ".";
-
 const GlobalStyle = createGlobalStyle`
   html,
   body,
@@ -168,14 +165,6 @@ const GlobalStyle = createGlobalStyle`
   // font 변경될 경우 password의 특수문자를 지원하지 않는 폰트 때문에 sans-serif로 고정
   input[type="password"] {
     font-family: sans-serif;
-  }
-
-  a {
-    color: ${styles.colors.grey1};
-    transition: color 0.3s;
-    &:hover {
-      color: ${styles.colors.primary};
-    }
   }
 `;
 
